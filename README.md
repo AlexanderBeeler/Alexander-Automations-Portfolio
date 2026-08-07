@@ -1,26 +1,29 @@
-# Make Automation Portfolio
+# Automations Portfolio
 
-Welcome! This repository showcases automation projects I've built using Make.
+A collection of business automation systems built using
+Make.com, n8n, and Zapier.
 
-## Services Used
+## Platforms
 
-- Gmail
-- Google Sheets
-- Google Calendar
-- Google Drive
-- Discord
-- YouTube
-- RSS
-- HTTP APIs
+### Make.com
+
+
+### n8n
+
+
+### Zapier
+
+
+## Core Skills
+
+- Workflow Automation
 - Webhooks
-
-## Projects
-
-- Calendar Reminder Bot
-- Gmail Invoice Logger
-- HTTP Programming Joke Bot
-- Riot Patch Notes Notifier
-- Google Forms Application Tracker
-- Webhook Contact Capture
-- Google Drive File Logger
-- YouTube Upload Tracker
+- REST APIs
+- AI Integration
+- Google Workspace
+- Google Sheets
+- CRM Automation
+- Data Transformation
+- Conditional Logic
+- Error Handling
+- Discord / Notifications
