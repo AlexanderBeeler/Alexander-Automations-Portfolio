@@ -8,9 +8,6 @@ Make.com, n8n, and Zapier.
 ### Make.com
 
 
-### n8n
-
-
 ### Zapier
 
 
