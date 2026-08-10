@@ -10,7 +10,7 @@ Orders with an invalid payment status are stopped and reported through Discord. 
 
 ## Workflow
 
-**[!]**
+![E-Commerce Order Processing Workflow](images/E-Commerce)
 
 ```text id="tq8i1a"
 Order Information
