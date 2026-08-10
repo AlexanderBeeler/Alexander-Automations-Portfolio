@@ -124,7 +124,7 @@ Generate Daily Report
 Discord
 ```
 
-**[!]**
+![Cold Email Agency Workflow 2](images/Zapier%20Cold%20Email%20Agency%202.png)
 
 ### Daily Report
 
