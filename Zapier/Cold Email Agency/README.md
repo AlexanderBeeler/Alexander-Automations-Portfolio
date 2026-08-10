@@ -132,7 +132,7 @@ The Discord report provides a summary of the day's campaign activity and lead in
 
 This allows campaign activity to be reviewed without manually checking the underlying spreadsheets.
 
----
+![Discord Report](images/Zapier%20Cold%20Email%20Agency%20Report.png)
 
 ## Tools Used
 
@@ -155,7 +155,3 @@ This allows campaign activity to be reviewed without manually checking the under
 * Scheduled daily reporting
 * JavaScript data processing
 * Centralized Google Sheets storage
-
-## Workflow
-
-**[!]**
