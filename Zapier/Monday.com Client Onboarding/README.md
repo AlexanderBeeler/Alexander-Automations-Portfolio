@@ -18,7 +18,7 @@ The automation:
 
 ## Workflow
 
-![Monday.com Client Onboarding Workflow](images/Zapier%20Monday%20Client%20Onboarding)
+![Monday.com Client Onboarding Workflow](images/Zapier%20Monday%20Client%20Onboarding.png)
 
 ```text
 Client Information
