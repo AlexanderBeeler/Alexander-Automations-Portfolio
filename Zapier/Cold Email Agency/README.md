@@ -12,7 +12,7 @@ The second workflow runs automatically at **5:00 PM each day**, gathers the day'
 
 ### Workflow
 
-![Cold Email Agency Workflow 1](images/Zapier%20Cold%20Email%20Agency%201)
+![Cold Email Agency Workflow 1](images/Zapier%20Cold%20Email%20Agency%201.png)
 
 ```text id="0q5z1m"
 Lead Information
