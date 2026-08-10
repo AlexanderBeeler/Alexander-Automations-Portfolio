@@ -100,7 +100,7 @@ A second Google Sheet stores:
 
 ![Google Sheets](images/Zapier%20Cold%20Email%20Agency%20Sheets.png)
 
-![]
+![Discord Alert](images/Zapier%20Cold%20Email%20Agency%20Lead.png)
 
 ---
 
