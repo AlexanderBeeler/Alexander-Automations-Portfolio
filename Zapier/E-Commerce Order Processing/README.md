@@ -2,17 +2,26 @@
 
 ## Overview
 
-An automated order processing workflow that validates payments, checks product inventory, and automatically updates stock levels.
+An automated order processing workflow that validates payment status, checks product inventory, and updates stock levels.
 
-The workflow receives order information including the order ID, customer details, product, SKU, quantity, price, and payment status.
+The workflow receives order information including:
 
-Orders with an invalid payment status are stopped and reported through Discord. Valid orders are matched to their corresponding product inventory, where available stock is checked before the order is processed.
+* Order ID
+* Customer Name
+* Email
+* Product
+* SKU
+* Quantity
+* Price
+* Payment Status
+
+Orders with an invalid payment status are stopped and reported through Discord. Valid orders are matched to their corresponding product inventory and checked against available stock before the inventory is updated.
 
 ## Workflow
 
-![E-Commerce Order Processing Workflow](images/Zapier%20E-Commerce.png)
+![E-Commerce Workflow](images/Zapier%20E-Commerce.png)
 
-```text id="tq8i1a"
+```text
 Order Information
        ↓
 Payment Status Check
@@ -45,46 +54,35 @@ Alert         Match
 
 * Receives and maps order information
 * Validates payment status
-* Rejects unpaid/invalid orders
+* Rejects unpaid or invalid orders
 * Sends Discord alerts for invalid payments
 * Identifies the ordered product
 * Checks available inventory
 * Rejects orders when stock is unavailable
 * Updates inventory after a successful order
-* Subtracts the ordered quantity from the current stock
+* Subtracts the ordered quantity from current stock
 
-## Tools Used
+## Payment Validation
 
-* Google Sheets
-* Discord
-* Automation workflows
-* Conditional logic
-* Data mapping
-* Inventory management
+Orders only continue when the payment status is valid.
+
+If an invalid payment status is received, the order is stopped and a Discord alert is sent instead of continuing to the inventory process.
+
+![Invalid Payment Discord Alert](images/payment-failed.png)
 
 ## Inventory Logic
 
 Product inventory is stored in Google Sheets.
 
-When a valid order is received, the workflow checks the appropriate product path and compares the requested quantity against the available stock.
+After payment is validated, the workflow routes the order to the appropriate product path and checks whether enough inventory is available.
 
-If sufficient stock exists:
+If sufficient stock exists, the workflow updates the inventory by subtracting the ordered quantity from the current stock.
 
 `Current Stock - Ordered Quantity = Updated Stock`
 
-The updated inventory is then saved back to Google Sheets.
+![Inventory Google Sheet](images/Zapier%20E-Commerce%20Stock%20Sheet.png)
 
 If sufficient stock is not available, the order is stopped and a Discord alert is sent.
-
-**[!]**
-
-## Payment Validation
-
-Orders are only allowed to continue when the payment status is valid.
-
-Invalid payment statuses trigger a Discord notification instead of continuing to the inventory process.
-
-**[!]**
 
 ## Product Routing
 
@@ -96,26 +94,19 @@ For example:
 
 The same process is applied to the other supported products.
 
-**[!]**
+## Failed Order
 
-## Screenshots
+If the requested quantity exceeds the available inventory, the order is stopped and does not update the stock.
 
-### Workflow
+The workflow sends an alert indicating that the order cannot be fulfilled due to insufficient inventory.
 
-**[!]**
+![Failed Order](images/Zapier%20E-Commerce%20Order%20Failed.png)
 
-### Inventory
+## Tools Used
 
-**[!]**
-
-### Discord Alerts
-
-**[!]**
-
-### Successful Order
-
-**[!]**
-
-## Workflow
-
-**[!]**
+* Google Sheets
+* Discord
+* Conditional logic
+* Data mapping
+* Inventory management
+* Automation workflows
