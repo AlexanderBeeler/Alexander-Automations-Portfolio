@@ -18,7 +18,7 @@ The automation:
 
 ## Workflow
 
-**[!Zapier Workflow](./images/)**
+![Monday.com Client Onboarding Workflow](images/Zapier%20Monday%20Client%20Onboarding)
 
 ```text
 Client Information
@@ -55,27 +55,19 @@ Google Sheets Log
 
 ## Screenshots
 
-### Monday.com
-
-**[!]**
-
 ### Google Drive
 
-**[!]**
+![Drive Folder](images/Zapier%20Monday%20Drive%20Folder.png)
 
 ### Welcome Document
 
-**[!]**
+![Welcome Document](images/Zapier%20Monday%20Welcome%20Doc.png)
 
 ### Discord Notification
 
-**[!]**
+![Discord Alert](images/Zapier%20Monday%20Discord%20Alert.png)
 
 ### Google Sheets Log
 
-**[!]**
-
-## Workflow
-
-**[!]**
+![Google Sheets Log](images/Zapier%20Monday%20Sheets.png)
 
