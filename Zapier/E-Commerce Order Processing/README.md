@@ -68,7 +68,7 @@ Orders only continue when the payment status is valid.
 
 If an invalid payment status is received, the order is stopped and a Discord alert is sent instead of continuing to the inventory process.
 
-![Invalid Payment Discord Alert](images/Zapier%20E-Commerce%20Payment%20Failed.png)
+![Invalid Payment Discord Alert](images/Zapier%20E-Commerce%20Payment%20Fail.png)
 
 ## Inventory Logic
 
