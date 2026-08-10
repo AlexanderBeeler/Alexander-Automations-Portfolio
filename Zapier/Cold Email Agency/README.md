@@ -96,11 +96,11 @@ A second Google Sheet stores:
 * Campaign
 * Urgency
 
-**[!]**
+![AI Lead Analysis](images/Zapier%20Cold%20Email%20Agency%20AI.png)
 
-**[!]**
+![Google Sheets](images/Zapier%20Cold%20Email%20Agency%20Sheets.png)
 
-**[!]**
+![]
 
 ---
 
